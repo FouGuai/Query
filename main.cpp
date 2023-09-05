@@ -12,8 +12,6 @@ int main()
         Query t("the"), it("it");
         Query ad = t | it;
         auto qr = ad.eval(tq);
-        print(cout, qr);
-        string s = "";
-        s[0];
+        print(cout, qr)；
     }
 }
